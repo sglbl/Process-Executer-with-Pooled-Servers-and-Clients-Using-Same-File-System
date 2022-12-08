@@ -9,4 +9,4 @@ Simulating 2 process-pooled servers (Y and Z) executing on the same system as th
   * Z have children process pool (workers) and delegates requests to its children using shared memory segment.
   * Client connects to server Y through the server fifo (given as a commandline argument), sends its request, receives its response through its client fifo, prints it to STDOUT and exit. (Also it exits gracefully in case of SIGINT)
   
-Details: [Midterm Project](midterm.pdf)
+Details: [Project Report PDF](1801042656_Report.pdf)
